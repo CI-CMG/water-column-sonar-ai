@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from water_column_sonar_processing.processing.batch_downloader import BatchDownloader
+from water_column_sonar_ai.processing.batch_downloader import BatchDownloader
 
 
 #######################################################

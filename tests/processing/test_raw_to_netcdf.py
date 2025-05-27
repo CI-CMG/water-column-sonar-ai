@@ -6,8 +6,8 @@ from dotenv import find_dotenv, load_dotenv
 from moto import mock_aws
 from moto.moto_server.threaded_moto_server import ThreadedMotoServer
 
-from water_column_sonar_processing.aws import DynamoDBManager, S3Manager
-from water_column_sonar_processing.processing import RawToNetCDF
+from water_column_sonar_ai.aws import DynamoDBManager, S3Manager
+from water_column_sonar_ai.processing import RawToNetCDF
 
 
 #######################################################

@@ -8,9 +8,9 @@ import numcodecs
 import numpy as np
 from numcodecs import Blosc
 
-from water_column_sonar_processing.aws import DynamoDBManager, S3Manager
-from water_column_sonar_processing.geometry import GeometryManager
-from water_column_sonar_processing.utility import Cleaner
+from water_column_sonar_ai.aws import DynamoDBManager, S3Manager
+from water_column_sonar_ai.geometry import GeometryManager
+from water_column_sonar_ai.utility import Cleaner
 
 
 def get_water_level(ds):

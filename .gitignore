@@ -174,3 +174,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+.idea
+.pytest_cache
+.coverage
+*.iml
+#.python-version
+target
+coverage.xml
+htmlcov
+dist
+build
+*.egg-info
+/setup.py
+*.spec

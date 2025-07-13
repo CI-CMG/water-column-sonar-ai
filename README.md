@@ -4,7 +4,7 @@
 
 
 # Setting up the Python Environment
-> Python 3.12.9
+> Python 3.12.11
 
 # Installing Dependencies
 ```
@@ -32,8 +32,7 @@ https://packaging.python.org/en/latest/tutorials/packaging-projects/
 see here for installation: https://pre-commit.com/
 https://dev.to/rafaelherik/using-trufflehog-and-pre-commit-hook-to-prevent-secret-exposure-edo
 ```
-uv run pre-commit install --allow-missing-config
-# or
+pip install pre-commit
 uv run pre-commit install
 ```
 

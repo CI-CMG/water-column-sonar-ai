@@ -26,6 +26,7 @@ dependencies = [
     "echopype==0.10.1",
     "fiona==1.10.1",
     "geopandas==1.0.1",
+    "hvplot",
     "keras==3.9.2",
     "mock==5.2.0",
     "moto[all]==5.1.3",

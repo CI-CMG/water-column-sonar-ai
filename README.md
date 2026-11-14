@@ -56,7 +56,7 @@ TODO
 # Tag a Release
 Step 1 --> increment the semantic version in the zarr_manager.py "metadata" & the "pyproject.toml"
 ```commandline
-git tag -a v25.4.5 -m "Releasing v25.4.5"
+git tag -a v26.11.1 -m "Releasing v26.11.1"
 git push origin --tags
 ```
 
@@ -87,17 +87,4 @@ uv lock --check
 uv lock
 uv sync --extra dev
 #uv run pytest tests
-```
-
-# Fixing S3FS Problems
-```commandline
-To enable/disa asyncio for the debugger, follow the steps:
-Open PyCharm
-Use Shift + Shift (Search Everywhere)
-In the popup type: Registry and press Enter
-Find "Registry" in the list of results and click on it.
-In the new popup find python.debug.asyncio.repl line and check the respective checkbox
-Press Close.
-Restart the IDE.
-The asyncio support will be enabled in the debugger.
 ```

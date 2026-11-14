@@ -2940,8 +2940,8 @@ wheels = [
 
 [[package]]
 name = "water-column-sonar-ai"
-version = "26.11.1"
-source = { editable = "." }
+version = "26.11.2"
+source = { virtual = "." }
 dependencies = [
     { name = "aiobotocore" },
     { name = "boto3" },

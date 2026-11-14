@@ -14,7 +14,7 @@ def teardown_module():
 
 
 #######################################################
-@pytest.mark.skip(reason="Running very slow for some reason")
+# @pytest.mark.skip(reason="Running very slow for some reason")
 def test_get_toy_batch_generator():
     np.random.seed(0)
 

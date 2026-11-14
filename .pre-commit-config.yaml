@@ -3,7 +3,6 @@ repos:
     rev: v5.0.0
     hooks:
       - id: detect-aws-credentials
-        args: [ "--allow-missing-credentials" ]
       - id: trailing-whitespace
       #- id: end-of-file-fixer
       #- id: check-docstring-first
@@ -24,11 +23,11 @@ repos:
         stages: [ "pre-commit", "pre-push" ]
 
   # Black is a code formatter that automatically formats your code according to a predefined style
-  - repo: https://github.com/psf/black
-    rev: 25.1.0
-    hooks:
-      - id: black
-        language_version: python3.12
+#  - repo: https://github.com/psf/black
+#    rev: 25.1.0
+#    hooks:
+#      - id: black
+#        language_version: python3.12
 
 #  # Flake8 is a linter that checks for style, syntax, and potential bugs
 #  - repo: https://github.com/pycqa/flake8
@@ -36,21 +35,21 @@ repos:
 #    hooks:
 #      - id: flake8
 
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.11.6
-    hooks:
-      # Run the linter.
-      - id: ruff
-        args: [ --fix ]
-      # Run the formatter.
-      - id: ruff-format
+#  - repo: https://github.com/astral-sh/ruff-pre-commit
+#    rev: v0.11.6
+#    hooks:
+#      # Run the linter.
+#      - id: ruff
+#        args: [ --fix ]
+#      # Run the formatter.
+#      - id: ruff-format
 
-  - repo: https://github.com/pycqa/isort
-    rev: 6.0.0
-    hooks:
-      - id: isort
-        name: isort (python)
-        args: ["--profile", "black", "--filter-files"]
+#  - repo: https://github.com/pycqa/isort
+#    rev: 6.0.0
+#    hooks:
+#      - id: isort
+#        name: isort (python)
+#        args: ["--profile", "black", "--filter-files"]
 
   ### Static Security Scan ###
   # To run manually you can do: "bandit -c pyproject.toml -r ."

@@ -3,8 +3,8 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "water_column_sonar_ui"
-version = "26.11.0"
+name = "water_column_sonar_ai"
+version = "26.11.1"
 authors = [
   { name="Rudy Klucik", email="rudy.klucik@noaa.gov" },
 ]
